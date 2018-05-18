@@ -40,6 +40,15 @@ window.Seed = (function () {
       submitterAvatarUrl: 'images/avatars/molly.png',
       productImageUrl: 'images/products/image-yellow.png',
     },
+    {
+      id: 5,
+      title: 'Nintendo LABO',
+      description: 'Fun experiments for kids',
+      url: '#',
+      votes: generateVoteCount(),
+      submitterAvatarUrl: 'images/avatars/matthew.png',
+      productImageUrl: 'images/products/image-aqua.png',
+    },
   ];
 
   return { products: products };
